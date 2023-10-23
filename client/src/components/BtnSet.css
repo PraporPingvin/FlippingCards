@@ -1,0 +1,14 @@
+.set-list{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.list-set__btn{
+    background-color: aliceblue;
+    padding: 30px;
+    border: 2px solid darkgrey;
+    border-radius: 20px;
+}
+ 

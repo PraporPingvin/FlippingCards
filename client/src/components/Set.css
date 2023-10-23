@@ -1,0 +1,14 @@
+.div-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 30%;
+  font-size: 17px;
+  color: brown;
+  /* text-align: justify; */
+  /* text-shadow: none; */
+}

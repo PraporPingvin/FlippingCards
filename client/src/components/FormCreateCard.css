@@ -1,0 +1,23 @@
+.first-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    padding: 5px;
+    width: 350px;
+}
+.form-lable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+textarea{
+    width: 350px;
+    resize: none;
+}
+.error-msg{
+    color: red;
+    font-size: small;
+}

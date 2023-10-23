@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.main-menu__link{
+    color: white;
+    text-decoration: none;
+}
+.text-link{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main-menu-li{
+    list-style-type: none;
+}
+.select_set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.set-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
