@@ -1,5 +1,5 @@
-import {Header} from './Header';
-import {Set} from './Set';
+import {Header} from '../Header/Header';
+import {Set} from '../Set/Set';
 
 export function PageViewSet(){
     return <>

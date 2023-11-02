@@ -1,6 +1,6 @@
 import React from "react";
-import { PageCreateSet } from './PageCreateSet'
-import { useInput } from "./UseInput";
+import { PageCreateSet } from '../PageCreateSet/PageCreateSet'
+import { useInput } from "../UserInput/UseInput";
 import { useForm } from "react-hook-form";
 
 import './FormCreateCard.css'
@@ -18,9 +18,6 @@ export function FormCreateCard() {
         <form onSubmit={handleSubmit((data)=>{
             console.log(data)
         })}>
-            <div>
-                <PageCreateSet />
-            </div>
             <div className="form-lable">
                 <label className="first-card">
                     передняя сторона карточки:

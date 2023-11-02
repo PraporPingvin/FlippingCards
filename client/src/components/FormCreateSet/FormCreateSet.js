@@ -1,9 +1,9 @@
 import React from "react";
-import { PageCreateSet } from './PageCreateSet'
-import { useInput } from "./UseInput";
+import { PageCreateSet } from '../PageCreateSet/PageCreateSet'
+import { useInput } from "../UserInput/UseInput";
 import { useForm } from "react-hook-form";
 
-import './FormCreateCard.css'
+import '../FormCreateCard/FormCreateCard.css'
 
 export function FormCreateSet() {
     const { register, handleSubmit, formState: {errors}} = useForm({

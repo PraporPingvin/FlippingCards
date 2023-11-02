@@ -13,6 +13,7 @@
     color: white;
     text-decoration: none;
     list-style-type: none;
+    display: flex;
 }
 .main-menu-li{
     list-style-type: none;
@@ -23,6 +24,11 @@
     justify-content: center;
 }
 .set-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo{
     display: flex;
     align-items: center;
     justify-content: center;

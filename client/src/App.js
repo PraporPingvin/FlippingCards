@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import {PageViewSet} from './components/PageViewSet';
-import {PageCreateSet} from './components/PageCreateSet';
+import {PageViewSet} from './components/PageViewSet/PageViewSet';
+import {PageCreateSet} from './components/PageCreateSet/PageCreateSet';
 
-import { PageSelectSet } from './components/PageSelectSet';
+import { PageSelectSet } from './components/PageSelectSet/PageSelectSet';
 
-import { FormCreateSet } from './components/FormCreateSet';
-import { FormCreateCard } from './components/FormCreateCard';
+import { FormCreateSet } from './components/FormCreateSet/FormCreateSet';
+import { FormCreateCard } from './components/FormCreateCard/FormCreateCard';
 import './App.css';
 
 

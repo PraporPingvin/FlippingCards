@@ -1,12 +1,12 @@
 import React from "react";
-import {Header} from "./Header"; 
-import {BtnSet} from "./BtnSet";
+import {Header} from "../Header/Header";
+import {BtnSet} from "../BtnSet/BtnSet";
 
-import './Header.css'
+import '../Header/Header.css'
 
 
 export function PageSelectSet(){
-    const cards = require("../data.json")
+    const cards = require("../../data.json")
     const sets = cards.reduce(
         (acc, item) => {
             if (acc.map[item.setName])
