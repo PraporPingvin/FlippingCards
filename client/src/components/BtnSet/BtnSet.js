@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-import './BtnSet.css';
+import './BtnSet.scss';
 
 
 export function BtnSet ({name, id}) {
