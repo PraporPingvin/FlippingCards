@@ -4,7 +4,9 @@ import {useSelector} from "react-redux";
 import Logo from "../../assets/img/sun.svg"
 
 export function Header(){
-    const number = useSelector(state => state.number.number)
+    const number = useSelector(state => {
+        return state.number.number;
+    })
     return(
         <div className="header">
             <h1>    
@@ -16,7 +18,7 @@ export function Header(){
             <nav className='main-menu'>
                 <ul>
                     <li className='main-menu-li'>
-                        <Link className='main-menu__link' to="/admin">Создать сет</Link>
+                        <Link className='main-menu__link' to="/admin/createset">Создать сет</Link>
                     </li>
                 </ul>
             </nav>

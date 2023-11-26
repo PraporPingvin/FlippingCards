@@ -1,11 +1,19 @@
-import {createStore, combineReducers} from "redux";
-import {numberReducer} from "./numberReducer";
-import {setReducer} from "./setReducer";
-import {composeWithDevTools} from "redux-devtools-extension";
+import {combineReducers, configureStore} from "@reduxjs/toolkit";
+import numberSlicer from "./numberReducer";
+import setSlice from "./setReducer";
+import cardSlice from "./cardReducer";
+// import {composeWithDevTools} from "redux-devtools-extension";
 
 const rootReducer = combineReducers({
-    number: numberReducer,
-    set: setReducer
+    number: numberSlicer,
+    set: setSlice,
+    card: cardSlice
 })
 
-export const store = createStore(rootReducer, composeWithDevTools())
+export const store = configureStore({
+    reducer: rootReducer
+    //     {
+    //     number: numberSlicer.reducer,
+    //     set: setSlice.reducer
+    // }
+})

@@ -1,7 +1,7 @@
 const Card = require('../models/Card')
-const cyrillicToTranslit = require("cyrillic-to-translit-js");
-const Set = require("../models/Set");
-const {Types} = require("mongoose");
+// const cyrillicToTranslit = require("cyrillic-to-translit-js");
+// const Set = require("../models/Set");
+// const {Types} = require("mongoose");
 class CardController{
 
     async createCard(req, res) {

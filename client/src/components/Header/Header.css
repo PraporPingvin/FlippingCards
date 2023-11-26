@@ -17,6 +17,8 @@
 }
 .main-menu-li{
     list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
 .select_set{
     display: flex;

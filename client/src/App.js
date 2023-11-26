@@ -18,7 +18,7 @@ function App() {
         <Route path="/set/:id" element={<PageViewSet/>} />
         <Route path="/admin" element={<PageCreateSet/>} />
           <Route path='/admin/createset' element={<FormCreateSet/>}/>
-          <Route path='/admin/createcard' element={<FormCreateCard/>}/>
+          <Route path='/admin/createcard/:id' element={<FormCreateCard/>}/>
         <Route path="*" element={<PageSelectSet/>} /> 
       </Routes>
     </BrowserRouter>
