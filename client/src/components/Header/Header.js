@@ -19,6 +19,7 @@ export function Header(){
                 <ul>
                     <li className='main-menu-li'>
                         <Link className='main-menu__link' to="/admin/createset">Создать сет</Link>
+                        <Link className='main-menu__link' to="/admin/createcard">Создать карточку</Link>
                     </li>
                 </ul>
             </nav>

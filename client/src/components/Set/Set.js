@@ -65,7 +65,7 @@ export function Set() {
                     </div>
                 </>
             )}
-            <Link to={`/admin/createcard/${param.id}`}>Создать карточку</Link>
+            {/*<Link to={`/admin/createcard/${param.id}`}>Создать карточку</Link>*/}
         </div>
     )
 }

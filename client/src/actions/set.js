@@ -18,7 +18,8 @@ export function createSet(data) {
     return async dispatch => {
         try {
             console.log(data)
-            await fetch("http://localhost:5000/api/set/create",
+
+            return await fetch("http://localhost:5000/api/set/create",
                 {
                     headers: {
                         'Accept': 'application/json',
